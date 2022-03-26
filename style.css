@@ -1,0 +1,43 @@
+.heading {
+    font-size: 25px;
+    width: 100%;
+    margin: 1px;
+    box-shadow: 5px 5px 5px yellowgreen;
+    font-family: 'Caveat', cursive;
+}
+
+.important {
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Calligraffitti', cursive;
+}
+
+#wrist_position {
+    font-size: 23px;
+}
+
+.footer {
+    position: fixed;
+    color:orangered;
+    bottom: 0;
+    text-align: center;
+    background-color: lightgreen;
+    width: 100%;
+    font-family: 'Yellowtail', cursive;
+    font-size: 20px;
+}
+
+canvas {
+    border: 5px dashed green;
+    animation-name: sink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes sink {
+    from {box-shadow: 6px 5px 7px hotpink;}
+    to {box-shadow: 6px 5px 7px indianred;}
+}
+
+video {
+    margin-left: 30;
+}
